@@ -4,6 +4,18 @@ class PagesController {
 	static int DEFAULT = 5
 	static int MAX = DEFAULT * DEFAULT
 
+	def home() {
+		log.debug "params: $params"
+	}
+
+	def projects() {
+		log.debug "params: $params"
+	}
+
+	def location() {
+		log.debug "params: $params"
+	}
+
 	def calendar() {
 		log.debug "params: $params"
 
@@ -13,13 +25,5 @@ class PagesController {
 		}
 
 		return [max: max]
-	}
-
-	def home() {
-		log.debug "params: $params"
-	}
-
-	def location() {
-		log.debug "params: $params"
 	}
 }
