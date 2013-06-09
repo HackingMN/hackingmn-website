@@ -321,7 +321,7 @@ header ul.nav li ul li ul {
   border-right: none;
   border-bottom: none;
   border-left: none;
-  border-bottom-color: none;
+  border-bottom-color: inherit;
   content:none;
 }
 
@@ -684,7 +684,7 @@ section.callaction {
     font-weight: 300;
     margin-bottom: 20px;
     position: relative;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 
@@ -953,7 +953,7 @@ ul.portfolio-categ li{
 
 ul.portfolio-categ li a{
 	display:block;
-	padding:35x 0 35x 0;
+	padding:35px 0 35px 0;
 	color:#353535;
 }
 
@@ -1835,7 +1835,7 @@ ul.time-post li.time{
 }
 
 .post-meta strong{
-	font-weight:200px;
+	font-weight:200;
 	color:#c7c7c7;
 }
 
