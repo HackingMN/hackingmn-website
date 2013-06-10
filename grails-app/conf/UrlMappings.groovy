@@ -6,7 +6,7 @@ class UrlMappings {
 			}
 		}
 
-		"/"(controller: "pages", action: "index")
+		"/"(controller: "pages", action: "home")
 		"/index"(controller: "pages", action: "home")
 		"/home"(controller: "pages", action: "home")
 		"/projects"(controller: "pages", action: "projects")
