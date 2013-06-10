@@ -12,9 +12,12 @@ header .container .row {
 	font-weight:400;
 }
 
+.hackers-font {
+	font-family: HackingTrashed;
+}
+
 .brand-title {
 	font-size: 55px;
-	font-family: HackingTrashed;
 }
 
 .twitter-name h3 {
