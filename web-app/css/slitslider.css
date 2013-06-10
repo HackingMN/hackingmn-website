@@ -488,6 +488,22 @@
 	background-image: url(../images/slides/slitslider/5.jpg);
 }
 
+.demo-2 .bg-img-arduino {
+	background-image: url(../images/slides/slitslider/Arduino_Uno_1900x700.jpg);
+}
+
+.slide-arduiono-content h2 {
+	margin-top: 90px !important;
+	width: 45%;
+	font-size: 95px;
+}
+
+.slide-arduiono-content h2,
+.slide-arduiono-content blockquote {
+	background:rgba(0,0,0,.7);
+	padding: 10px 0 35px 35px !important;
+}
+
 /* Animations for content elements */
 
 .sl-trans-elems .deco{
