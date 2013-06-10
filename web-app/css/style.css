@@ -321,7 +321,7 @@ header ul.nav li ul li ul {
   border-right: none;
   border-bottom: none;
   border-left: none;
-  border-bottom-color: none;
+  border-bottom-color: inherit;
   content:none;
 }
 
@@ -603,7 +603,7 @@ a.nivo-prevNav:before {
 	display:inline-block;
 	width:22px;
 	height:22px;
-	background:url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/nivo-bullets.png) no-repeat;
+	background:url(../images/nivo-bullets.png) no-repeat;
 	text-indent:-9999px;
 	border:0;
 	margin: 0 2px;
@@ -684,7 +684,7 @@ section.callaction {
     font-weight: 300;
     margin-bottom: 20px;
     position: relative;
-    word-break: break-word;
+    word-break: break-all;
 }
 
 
@@ -953,7 +953,7 @@ ul.portfolio-categ li{
 
 ul.portfolio-categ li a{
 	display:block;
-	padding:35x 0 35x 0;
+	padding:35px 0 35px 0;
 	color:#353535;
 }
 
@@ -1835,7 +1835,7 @@ ul.time-post li.time{
 }
 
 .post-meta strong{
-	font-weight:200px;
+	font-weight:200;
 	color:#c7c7c7;
 }
 
@@ -2662,34 +2662,34 @@ article img.pull-right, article .align-right{
 }
 
 .bgr .bg.bg1 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg1.png) repeat left top;
+	background: url(../images/bodybg/bg1.png) repeat left top;
 }
 .bgr .bg.bg2 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg2.png) repeat left top;
+	background: url(../images/bodybg/bg2.png) repeat left top;
 }
 .bgr .bg.bg3 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg3.jpg) repeat left top;
+	background: url(../images/bodybg/bg3.jpg) repeat left top;
 }
 .bgr .bg.bg4 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg4.png) repeat left top;
+	background: url(../images/bodybg/bg4.png) repeat left top;
 }
 .bgr .bg.bg5 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg5.png) repeat left top;
+	background: url(../images/bodybg/bg5.png) repeat left top;
 }
 .bgr .bg.bg6 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg6.png) repeat left top;
+	background: url(../images/bodybg/bg6.png) repeat left top;
 }
 .bgr .bg.bg7 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg7.png) repeat left top;
+	background: url(../images/bodybg/bg7.png) repeat left top;
 }
 .bgr .bg.bg8 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg8.jpg) repeat left top;
+	background: url(../images/bodybg/bg8.jpg) repeat left top;
 }
 .bgr .bg.bg9 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg9.png) repeat left top;
+	background: url(../images/bodybg/bg9.png) repeat left top;
 }
 .bgr .bg.bg10 {
-	background: url(../../../../Downloads/Flattern-template-package-v.1.0.0/Template/img/bodybg/bg10.png) repeat left top;
+	background: url(../images/bodybg/bg10.png) repeat left top;
 }
 
 #accent_color{
