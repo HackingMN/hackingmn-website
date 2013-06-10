@@ -1,4 +1,14 @@
-# .gitignore for Grails 1.2 and 1.3
+web-app/WEB-INF/applicationContext.xml
+web-app/WEB-INF/sitemesh.xml
+web-app/WEB-INF/tld/
+*.log
+target/
+classes/
+out/
+*.iml
+*.tmproj
+*.DS_Store
+.idea/
 
 # web application files
 /web-app/WEB-INF
