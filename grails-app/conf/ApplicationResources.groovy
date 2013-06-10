@@ -13,7 +13,9 @@ modules = {
 		resource url: "css/style.css"
 		resource url: "css/style-overrides.css"
 		resource url: "css/skins/default.css"
-		resource url: "css/bodybg/bg1.css"
+		resource url: "css/bodybg/bg10.css"
+		resource url: "css/custom-fonts.css"
+		resource url: "css/font-awesome.css"
 	}
 	fancybox {
 		dependsOn 'jquery'
@@ -65,6 +67,8 @@ modules = {
 		resource url: "js/jquery.timeago.js"
 	}
 	map {
+		dependsOn 'jquery'
+
 		resource url: "js/jquery.gmap.min.js"
 	}
 }
