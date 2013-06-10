@@ -6,7 +6,7 @@
 		<div class="row">
 			<div class="span6">
 				<div class="brand">
-					<span class="brand-title">Hacking MN</span>
+					<span class="brand-title hackers-font">Hacking MN</span>
 				</div>
 			</div>
 			<div class="span6">
