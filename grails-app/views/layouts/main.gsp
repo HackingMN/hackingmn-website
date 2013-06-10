@@ -4,25 +4,59 @@
 <!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><g:layoutTitle default="Grails"/></title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
-		<link rel="apple-touch-icon" href="${resource(dir: 'images', file: 'apple-touch-icon.png')}">
-		<link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 'apple-touch-icon-retina.png')}">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
-		<g:layoutHead/>
-		<r:layoutResources />
-	</head>
-	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
-		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
-		<g:javascript library="application"/>
-		<r:layoutResources />
-	</body>
+<head>
+	<!-- start: Meta -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title><g:layoutTitle default="Groovy Users of MN" /></title>
+
+	<meta name="description" content="Groovy Users of Minnesota" />
+	<meta name="keywords" content="Groovy, Grails, Web, Tomcat, Hibernate, JVM, Java, Usergroup" />
+	<!-- end: Meta -->
+
+	<!-- start: Mobile Specific -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- end: Mobile Specific -->
+
+	<!-- start: Facebook Open Graph -->
+	<meta property="og:title" content="Groovy Users of MN" />
+	<meta property="og:description" content="Usergroup centered around Groovy, Grails and other JVM technologies." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://groovy.mn" />
+	<meta property="og:image" content="" />
+	<!-- end: Facebook Open Graph -->
+
+	<!-- start: CSS -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Boogaloo">
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
+	<!-- end: CSS -->
+
+	%{--<g:external file="/favicon.ico" />--}%
+
+	<g:layoutHead />
+
+	<r:require module="bootstrap" />
+	<r:require module="fancybox" />
+	<r:require module="common" />
+	<r:require module="modernizr" />
+	<r:require module="portfolio" />
+	<r:require module="social" />
+	<r:require module="prettify" />
+
+	<r:layoutResources />
+
+	<g:render template="/analyticsJS" />
+</head>
+
+<body>
+	<g:render template="/nav/top" />
+	<g:layoutBody />
+	<g:render template="/footer/index" />
+
+	<r:layoutResources />
+
+	<g:render template="/barometerJS" />
+</body>
 </html>
