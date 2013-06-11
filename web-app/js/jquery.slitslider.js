@@ -82,7 +82,7 @@
 		// keyboard navigation
 		keyboard : true,
 		// time between transitions
-		interval : 10000,
+		interval : 5000,
 		// callbacks
 		onBeforeChange : function( slide, idx ) { return false; },
 		onAfterChange : function( slide, idx ) { return false; }
