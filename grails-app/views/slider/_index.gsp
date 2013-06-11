@@ -6,8 +6,8 @@
 		<div class="sl-slider">
 			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-arduino"></div>
-					<div class="slide-arduiono-content">
+					<div class="bg-img bg-img-arduino-uno"></div>
+					<div class="slide-content">
 						<h2 class="hackers-font">Hackers Welcome</h2>
 						<blockquote>
 							<p>
@@ -19,54 +19,54 @@
 			</div>
 			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
 				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-2">
+					<div class="bg-img bg-img-arduino-wallpaper"></div>
+					<div class="slide-content">
+						<h2 class="hackers-font">Internet of Things</h2>
+						<blockquote>
+							<p>
+								The programmable world is here, see how you can connect every day devices.
+							</p>
+						</blockquote>
 					</div>
-					<h2><strong>Be</strong> inspired</h2>
-					<blockquote>
-						<p>
-							What could possibly go wrong?
-						</p>
-						<cite>Scott Vlaminck</cite>
-					</blockquote>
 				</div>
 			</div>
 			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
 				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-3">
+					<div class="bg-img bg-img-arduino-ethernet-shield"></div>
+					<div class="slide-content">
+						<h2 class="hackers-font">Inspire Innovation</h2>
+						<blockquote>
+							<p>
+								You've built something cool that makes your life easier. &nbsp;Share it with the group.
+							</p>
+						</blockquote>
 					</div>
-					<h2><strong>Responsive</strong> layout</h2>
-					<blockquote>
-						<p>
-							Thousands of people who say they 'love' animals sit down once or twice a day to enjoy the flesh of creatures who have been utterly deprived of everything that could make their lives worth living and who endured the awful suffering and the terror of the abattoirs.
-						</p>
-						<cite>Andress Michel Aorta</cite>
-					</blockquote>
 				</div>
 			</div>
 			<div class="sl-slide" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
 				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-4">
+					<div class="bg-img bg-img-arduino-peek-mega"></div>
+					<div class="slide-content">
+						<h2 class="hackers-font">Join Other Makers</h2>
+						<blockquote>
+							<p>
+								Come see what others our working on help out by sharing your expertise.
+							</p>
+						</blockquote>
 					</div>
-					<h2><strong>Awesome</strong> features</h2>
-					<blockquote>
-						<p>
-							The human body has no more need for cows' milk than it does for dogs' milk, horses' milk, or giraffes' milk.
-						</p>
-						<cite>Smilee Bounvaller</cite>
-					</blockquote>
 				</div>
 			</div>
 			<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
 				<div class="sl-slide-inner">
-					<div class="bg-img bg-img-5">
+					<div class="bg-img bg-img-raspberry-pi"></div>
+					<div class="slide-content">
+						<h2 class="hackers-font">Build Something</h2>
+						<blockquote>
+							<p>
+								You have the idea and the resources. &nbsp;What are you waiting for?
+							</p>
+						</blockquote>
 					</div>
-					<h2><strong>Premium</strong> support</h2>
-					<blockquote>
-						<p>
-							I think if you want to eat more meat you should kill it yourself and eat it raw so that you are not blinded by the hypocrisy of having it processed for you.
-						</p>
-						<cite>Clarke Edward Thompson</cite>
-					</blockquote>
 				</div>
 			</div>
 		</div>
