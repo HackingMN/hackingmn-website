@@ -488,18 +488,34 @@
 	background-image: url(../images/slides/slitslider/5.jpg);
 }
 
-.demo-2 .bg-img-arduino {
+.demo-2 .bg-img-arduino-uno {
 	background-image: url(../images/slides/slitslider/Arduino_Uno_1900x700.jpg);
 }
 
-.slide-arduiono-content h2 {
+.demo-2 .bg-img-arduino-wallpaper {
+	background-image: url(../images/slides/slitslider/Arduino_Wallpaper_1900x700.jpg);
+}
+
+.demo-2 .bg-img-arduino-ethernet-shield {
+	background-image: url(../images/slides/slitslider/Arduino_Ethernet_Shield_1900x700.jpg);
+}
+
+.demo-2 .bg-img-arduino-peek-mega {
+	background-image: url(../images/slides/slitslider/Arduino_Peek_Mega_1900x700.jpg);
+}
+
+.demo-2 .bg-img-raspberry-pi {
+	background-image: url(../images/slides/slitslider/Raspberry_Pi_1900x700.jpg);
+}
+
+.slide-content h2 {
 	margin-top: 90px !important;
 	width: 45%;
 	font-size: 95px;
 }
 
-.slide-arduiono-content h2,
-.slide-arduiono-content blockquote {
+.slide-content h2,
+.slide-content blockquote {
 	background:rgba(0,0,0,.7);
 	padding: 10px 0 35px 35px !important;
 }
