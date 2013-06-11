@@ -50,7 +50,7 @@
 						<h2 class="hackers-font">Join Other Makers</h2>
 						<blockquote>
 							<p>
-								Come see what others our working on help out by sharing your expertise.
+								Come see what others are working on and help out by sharing your expertise.
 							</p>
 						</blockquote>
 					</div>
