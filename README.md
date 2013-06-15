@@ -1,6 +1,6 @@
 Hacking MN Website
 ===========
-Website for Hacking MN User Group [http://hacking.mn](http://hacking.mn).  A group who is primarily focused towards makers, hackers, and builders, meeting once a month to bring cool ideas to life.
+Website for the Hacking MN User Group [http://hacking.mn](http://hacking.mn).  A group who is primarily focused towards makers, hackers, and builders, meeting once a month to bring cool ideas to life.
 
 This site is built with [Grails](http://grails.org) and deployed on [AppFog](http://www.appfog.com).
 
