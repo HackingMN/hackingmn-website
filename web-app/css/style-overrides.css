@@ -28,6 +28,10 @@ header .container .row {
 	display: inline;
 }
 
+#twitter-widget-0 {
+	width: 100%;
+}
+
 .da-slide p.slider-text {
 	font-size: 24px;
 }
