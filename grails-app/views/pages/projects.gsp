@@ -10,6 +10,7 @@
 	<!-- start: Container -->
 	<div class="container">
 
+		<br />
 		<div class="row">
 			<div class="span12">
 				<h4 class="heading">Recent <strong>projects</strong> people in the community are building</h4>
