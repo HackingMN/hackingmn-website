@@ -15,7 +15,7 @@
 			zoom: 13,
 			markers: [{
 					address: '11 Fourth Street NE, Minneapolis MN, 55413',
-					html: "<strong>HackingMN</strong><br /><strong>TBD of the month at 6:00 pm</strong><br /> 11 Fourth Street NE #300,<br /> Minneapolis MN, 55413<br /> 612.208.7022",
+					html: "<strong>HackingMN</strong><br /><strong>3rd Tuesday of the month at 6:00 pm</strong><br /> 11 Fourth Street NE #300,<br /> Minneapolis MN, 55413<br /> 612.208.7022",
 					popup: true
 				}]
 		});
