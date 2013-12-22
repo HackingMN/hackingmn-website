@@ -9,6 +9,8 @@ grails.project.source.level = 1.6
 def gebVersion = "0.9.0"
 def seleniumVersion = "2.21.0"
 
+grails.project.dependency.resolver = "maven"
+
 grails.project.dependency.resolution = {
 	// Inherit Grails' default dependencies
 	inherits("global") {
@@ -50,20 +52,20 @@ grails.project.dependency.resolution = {
 	}
 
 	plugins {
-		runtime ":hibernate:$grailsVersion"
-		runtime ":jquery:1.9.1"
+		runtime ':hibernate:3.6.10.6'
+		runtime ":jquery:1.10.2.2"
 
 		// Resources plugins
-		runtime ":resources:1.1.6"
+		runtime ":resources:1.2.1"
 		runtime ":zipped-resources:1.0"
 		compile ":cache-headers:1.1.5"
 		runtime ":cached-resources:1.0"
 		runtime ":yui-minify-resources:0.1.5"
 
 		// User installed plugins
-		compile ":build-info:1.2.4"
+		compile ":build-info:1.2.5"
 		compile ":build-info-tag:0.3.1"
-		compile ":build-test-data:2.0.5"
+		compile ":build-test-data:2.0.9"
 		compile ":codenarc:0.18.1"
 		compile ":console:1.2"
 
@@ -72,7 +74,7 @@ grails.project.dependency.resolution = {
 			exclude "spock-grails-support"
 		}
 
-		build ":tomcat:$grailsVersion"
+		build ':tomcat:7.0.47'
 
 		runtime ":database-migration:1.3.2"
 
