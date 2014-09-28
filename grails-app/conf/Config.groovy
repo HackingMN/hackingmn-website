@@ -68,7 +68,7 @@ environments {
 	}
 	production {
 		grails.logging.jul.usebridge = false
-		grails.serverURL = "http://groovy.mn"
+		grails.serverURL = "http://hacking.mn"
 	}
 }
 
@@ -114,7 +114,7 @@ log4j = {
 }
 // Uncomment and edit the following lines to start using Grails encoding & escaping improvements
 
-/* remove this line 
+/* remove this line
 // GSP settings
 grails {
     views {
