@@ -10,8 +10,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<title><g:layoutTitle default="Groovy Users of MN" /></title>
 
-	<meta name="description" content="Groovy Users of Minnesota" />
-	<meta name="keywords" content="Groovy, Grails, Web, Tomcat, Hibernate, JVM, Java, Usergroup" />
+	<meta name="description" content="Hacking MN" />
+	<meta name="keywords" content="Hacking, Making, Usergroup" />
 	<!-- end: Meta -->
 
 	<!-- start: Mobile Specific -->
@@ -19,8 +19,8 @@
 	<!-- end: Mobile Specific -->
 
 	<!-- start: Facebook Open Graph -->
-	<meta property="og:title" content="Groovy Users of MN" />
-	<meta property="og:description" content="Usergroup centered around Groovy, Grails and other JVM technologies." />
+	<meta property="og:title" content="Hacking MN" />
+	<meta property="og:description" content="A group who is primarily focused towards makers, hackers, and builders, meeting once a month to bring cool ideas to life." />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="http://hacking.mn" />
 	<meta property="og:image" content="" />
