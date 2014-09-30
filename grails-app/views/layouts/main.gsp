@@ -8,7 +8,7 @@
 	<!-- start: Meta -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title><g:layoutTitle default="Groovy Users of MN" /></title>
+	<title><g:layoutTitle default="Hacking MN" /></title>
 
 	<meta name="description" content="Hacking MN" />
 	<meta name="keywords" content="Hacking, Making, Usergroup" />

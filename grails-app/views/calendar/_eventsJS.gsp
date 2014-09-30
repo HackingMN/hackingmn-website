@@ -14,7 +14,7 @@
 			}
 		}
 		content = content.replace(/Replaces event originally scheduled for.*>/gi, '');
-		content = content.replace(/<.*Who: Groovy Minnesota/gi, '');
+		content = content.replace(/<.*Who: Hacking MN/gi, '');
 		content = content.replace(/<.*Where: 11 NE Fourth Street, Suite 300, Minneapolis, MN 55413/gi, '');
 		content = content.replace(/<.*Event Status: confirmed/gi, '');
 
